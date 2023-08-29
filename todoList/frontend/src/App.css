@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+   form {
+        font-family: Arial, sans-serif;
+        background-color: #faf5f5;
+        padding: 20px;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    h4 {
+        text-align: center;
+        color: #333;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    input[type='text'],
+    input[type='password'],
+    input[type='file'] {
+        margin-bottom: 10px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    button[type='submit'] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .already-reg {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .already-reg a {
+        text-decoration: none;
+        color: #007bff;
+    }
+.mainNavBar{
+  margin-bottom: 15px;
+  text-align: right;
+  background-color: #b2bbcf;
+  
+
+
+}
